@@ -1,7 +1,7 @@
 require 'nokogiri'
 
-require 'itunes_parser/nokogiri_xpath'
-require 'itunes_parser/nokogiri_sax'
+require_relative 'itunes_parser/nokogiri_xpath'
+require_relative 'itunes_parser/nokogiri_sax'
 
 module ItunesParser
   def self.parse(*args)
